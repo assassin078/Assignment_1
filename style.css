@@ -1,6 +1,7 @@
 body {
     font-family: 'Poppins', sans-serif;
-
+    margin: 0;
+    
 }
 .flexible-container{
         display: flex;
@@ -72,5 +73,11 @@ p{
 .FOLLOWERS{
     border-radius: 20px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    
+    margin-bottom: 10px;
+
+}
+footer{
+    background-color: darkslategrey;
+    padding: 5px;
+    padding-top: 20px;
 }
