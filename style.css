@@ -1,7 +1,11 @@
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
-    
+    color:rgb(61, 58, 58)
+}
+span{
+    color:tomato;
+    weight:900px;
 }
 .flexible-container{
         display: flex;
@@ -15,7 +19,7 @@ p{
 }
     
 .bg-img{
-    background-image: url(food-network-main/images/shapes/Frame\ 58.jpg);
+    background-image: url(Frame\ 58.jpg);
     background-position: center;
 
     background-size: 100% 100%;
@@ -47,7 +51,9 @@ p{
 .text-allign{
     text-align: center;
     }
-
+h3{
+    padding: 0px 180px;
+}
 
 .food-img{
     
@@ -57,13 +63,18 @@ p{
 }
 
 .one-third-width{
-    
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
     width: 33.33%;
     margin:20px ;
     border-radius: 20px;
     background-color: wheat;
 
 }
+.one-third-width img{
+    margin-top: 50px;
+
+}
+
 
 .one-third-width-2{
     
@@ -79,7 +90,7 @@ p{
 
 }
 footer{
-    background-color: darkslategrey;
+    background-color: rgb(118, 146, 146);
     padding: 5px;
     padding-top: 20px;
 }
