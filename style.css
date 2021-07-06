@@ -1,0 +1,76 @@
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+.flexible-container{
+        display: flex;
+       }
+h1{
+    font-style: bold;
+    font-size: 35px;
+}
+p{
+    font-size: 20px;
+}
+    
+.bg-img{
+    background-image: url(food-network-main/images/shapes/Frame\ 58.jpg);
+    background-position: center;
+
+    background-size: 100% 100%;
+    } 
+    
+
+
+
+.half-width{
+    padding:50px;
+    width: 50%;
+}
+.half-width img {
+    width: 100%;
+}
+
+.order-button{
+    
+    text-decoration: none;
+    color:rgb(61, 58, 58);
+    background-image: linear-gradient(rgb(148, 223, 119) , cyan);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    padding: 10px;
+    
+    border-radius: 50px;
+    font-weight: 900;
+}
+
+.text-allign{
+    text-align: center;
+    }
+.text-allign p{
+        padding: 0px 80px;
+        }
+
+.food-img{
+    
+    
+    width: 300px;
+    height: auto;
+}
+
+.one-third-width{
+    width: 33.33%;
+    margin:20px ;
+    border-radius: 20px;
+    background-color: wheat;
+
+}
+
+.one-third-width-2{
+    
+    width: 33.33%;
+}
+.FOLLOWERS{
+    border-radius: 20px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    
+}
